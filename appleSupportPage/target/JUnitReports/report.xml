@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.791" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Testing web elemnets in Apple web page" name="" time="5.315">
+<system-out><![CDATA[
+Given Launch the browser and open the apple support appilication............passed
+Then verify apple support headers...........................................passed
+Then verify apple support tabs..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing web elemnets in Apple web page" name="" time="4.672">
+<system-out><![CDATA[
+Given Launch the browser and open the apple support appilication............passed
+When user enters search criteria as "Screen broken" and select appropriate option.passed
+Then verify the header is displayed based on the option selected............passed
+Then get the estimation by selecting product as "iPhone 11" and model as "iPhone 11".passed
+Then fetch the estimation cost for both.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
